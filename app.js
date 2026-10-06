@@ -25,6 +25,8 @@
   }
   function draw(model, result) {
     const svg=$('hero-viz'); svg.replaceChildren();
+    const width=Math.min(600,Math.max(300,svg.clientWidth));
+    svg.setAttribute('viewBox',`0 0 ${width} 310`);
     const arrays=[model.control,...model.genes[gene]];
     const labels=['sgNT',`sg${gene}_1`,`sg${gene}_2`];
     const colors=['#777','#1f7a8c','#1f7a8c'];
@@ -32,13 +34,13 @@
     const y=v=>245-v/ymax*200;
     svg.setAttribute('aria-label',`${model.name}, ${gene}. Individual reported colony measurements and group means. Guide reductions ${pct(result.effects[0])} and ${pct(result.effects[1])}.`);
     svg.appendChild(svgEl('text',{x:48,y:18,'font-size':12,fill:'#666'},'Reported colony number'));
-    for(let i=0;i<=4;i++) { const v=ymax*i/4; svg.appendChild(svgEl('line',{x1:48,y1:y(v),x2:585,y2:y(v),stroke:'#e6e6e6'})); svg.appendChild(svgEl('text',{x:40,y:y(v)+4,'font-size':12,'text-anchor':'end',fill:'#666'},Number(v.toFixed(1)))); }
+    for(let i=0;i<=4;i++) { const v=ymax*i/4; svg.appendChild(svgEl('line',{x1:48,y1:y(v),x2:width-15,y2:y(v),stroke:'#e6e6e6'})); svg.appendChild(svgEl('text',{x:40,y:y(v)+4,'font-size':12,'text-anchor':'end',fill:'#666'},Number(v.toFixed(1)))); }
     arrays.forEach((a,k)=> {
-      const x=132+k*176;
+      const x=48+(k+.5)*(width-63)/3;
       a.forEach((v,i)=> { const c=svgEl('circle',{cx:x+(i-1)*12,cy:y(v),r:5,fill:colors[k],opacity:.8}); c.appendChild(svgEl('title',{},`${labels[k]} observation ${i+1}: ${v}`)); svg.appendChild(c); });
       svg.appendChild(svgEl('line',{x1:x-32,x2:x+32,y1:y(mean(a)),y2:y(mean(a)),stroke:'#1a1a1a','stroke-width':2}));
       svg.appendChild(svgEl('text',{x,y:271,'font-size':13,'text-anchor':'middle',fill:'#333'},labels[k]));
-      svg.appendChild(svgEl('text',{x,y:293,'font-size':12,'text-anchor':'middle',fill:'#666'},k===0?`mean ${fmt(mean(a))}`:`${pct(result.effects[k-1])} reduction`));
+      svg.appendChild(svgEl('text',{x,y:293,'font-size':12,'text-anchor':'middle',fill:'#666'},k===0?`mean ${fmt(mean(a))}`:`${pct(result.effects[k-1])}${width<400?'':' reduction'}`));
     });
     const body=$('raw-table').querySelector('tbody'); body.replaceChildren();
     arrays.forEach((a,k)=> {const tr=document.createElement('tr'); [labels[k],a.map(v=>v.toFixed(3)).join(' · '),mean(a).toFixed(3)].forEach(v=> {const td=document.createElement('td');td.textContent=v;tr.appendChild(td);});body.appendChild(tr);});
@@ -77,6 +79,7 @@
   $('model').addEventListener('change',()=>select($('model').value,gene));
   $('gene').addEventListener('change',()=>select(selected,$('gene').value));
   $('threshold').addEventListener('input',render);$('group').addEventListener('change',render);
+  window.addEventListener('resize',render);
   $('export').addEventListener('click',()=>{
     const escape=v=>'"'+String(v).replaceAll('"','""')+'"';
     const head=['model','published_group','target','guide_1_reduction_pct','guide_2_reduction_pct','smaller_guide_reduction_pct','worst_single_omission_reduction_pct','most_sensitive_omission','analyst_threshold_pct','status','source_doi','source_sha256'];
