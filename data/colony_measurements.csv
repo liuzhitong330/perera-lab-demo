@@ -1,0 +1,127 @@
+record_id,panel,group,model,source_model_label,replicate_index_within_model,guide,target,perturbation,reported_colony_number,source_cell,source_row_label
+Fig-3c-B7,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,1,sgNT,non-targeting control,non-targeting sgRNA,94.33333333,B7,CAPAN_2_1
+Fig-3c-C7,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,1,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,11.33333333,C7,CAPAN_2_1
+Fig-3c-D7,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,1,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,15.33333333,D7,CAPAN_2_1
+Fig-3c-E7,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,1,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,5.333333333,E7,CAPAN_2_1
+Fig-3c-F7,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,1,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,5.0,F7,CAPAN_2_1
+Fig-3c-G7,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,1,sgSQLE_1,SQLE,CRISPR-mediated knockout,3.333333333,G7,CAPAN_2_1
+Fig-3c-H7,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,1,sgSQLE_2,SQLE,CRISPR-mediated knockout,18.66666667,H7,CAPAN_2_1
+Fig-3c-B8,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,2,sgNT,non-targeting control,non-targeting sgRNA,103.3333333,B8,CAPAN_2_2
+Fig-3c-C8,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,2,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,13.66666667,C8,CAPAN_2_2
+Fig-3c-D8,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,2,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,12.0,D8,CAPAN_2_2
+Fig-3c-E8,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,2,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,4.666666667,E8,CAPAN_2_2
+Fig-3c-F8,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,2,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,5.0,F8,CAPAN_2_2
+Fig-3c-G8,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,2,sgSQLE_1,SQLE,CRISPR-mediated knockout,5.333333333,G8,CAPAN_2_2
+Fig-3c-H8,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,2,sgSQLE_2,SQLE,CRISPR-mediated knockout,20.66666667,H8,CAPAN_2_2
+Fig-3c-B9,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,3,sgNT,non-targeting control,non-targeting sgRNA,99.66666667,B9,CAPAN_2_3
+Fig-3c-C9,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,3,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,18.0,C9,CAPAN_2_3
+Fig-3c-D9,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,3,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,8.666666667,D9,CAPAN_2_3
+Fig-3c-E9,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,3,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,4.333333333,E9,CAPAN_2_3
+Fig-3c-F9,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,3,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,4.333333333,F9,CAPAN_2_3
+Fig-3c-G9,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,3,sgSQLE_1,SQLE,CRISPR-mediated knockout,3.666666667,G9,CAPAN_2_3
+Fig-3c-H9,Fig 3c,C2-Lung,CAPAN-2,CAPAN_2,3,sgSQLE_2,SQLE,CRISPR-mediated knockout,35.66666667,H9,CAPAN_2_3
+Fig-3c-B10,Fig 3c,C2-Lung,HPAC,HPAC,1,sgNT,non-targeting control,non-targeting sgRNA,98.33333333,B10,HPAC_1
+Fig-3c-C10,Fig 3c,C2-Lung,HPAC,HPAC,1,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,31.66666667,C10,HPAC_1
+Fig-3c-D10,Fig 3c,C2-Lung,HPAC,HPAC,1,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,17.33333333,D10,HPAC_1
+Fig-3c-E10,Fig 3c,C2-Lung,HPAC,HPAC,1,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,15.66666667,E10,HPAC_1
+Fig-3c-F10,Fig 3c,C2-Lung,HPAC,HPAC,1,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,9.0,F10,HPAC_1
+Fig-3c-G10,Fig 3c,C2-Lung,HPAC,HPAC,1,sgSQLE_1,SQLE,CRISPR-mediated knockout,7.666666667,G10,HPAC_1
+Fig-3c-H10,Fig 3c,C2-Lung,HPAC,HPAC,1,sgSQLE_2,SQLE,CRISPR-mediated knockout,26.0,H10,HPAC_1
+Fig-3c-B11,Fig 3c,C2-Lung,HPAC,HPAC,2,sgNT,non-targeting control,non-targeting sgRNA,98.66666667,B11,HPAC_2
+Fig-3c-C11,Fig 3c,C2-Lung,HPAC,HPAC,2,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,30.0,C11,HPAC_2
+Fig-3c-D11,Fig 3c,C2-Lung,HPAC,HPAC,2,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,22.66666667,D11,HPAC_2
+Fig-3c-E11,Fig 3c,C2-Lung,HPAC,HPAC,2,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,12.0,E11,HPAC_2
+Fig-3c-F11,Fig 3c,C2-Lung,HPAC,HPAC,2,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,5.333333333,F11,HPAC_2
+Fig-3c-G11,Fig 3c,C2-Lung,HPAC,HPAC,2,sgSQLE_1,SQLE,CRISPR-mediated knockout,9.333333333,G11,HPAC_2
+Fig-3c-H11,Fig 3c,C2-Lung,HPAC,HPAC,2,sgSQLE_2,SQLE,CRISPR-mediated knockout,25.0,H11,HPAC_2
+Fig-3c-B12,Fig 3c,C2-Lung,HPAC,HPAC,3,sgNT,non-targeting control,non-targeting sgRNA,90.33333333,B12,HPAC_3
+Fig-3c-C12,Fig 3c,C2-Lung,HPAC,HPAC,3,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,26.66666667,C12,HPAC_3
+Fig-3c-D12,Fig 3c,C2-Lung,HPAC,HPAC,3,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,37.33333333,D12,HPAC_3
+Fig-3c-E12,Fig 3c,C2-Lung,HPAC,HPAC,3,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,10.66666667,E12,HPAC_3
+Fig-3c-F12,Fig 3c,C2-Lung,HPAC,HPAC,3,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,16.0,F12,HPAC_3
+Fig-3c-G12,Fig 3c,C2-Lung,HPAC,HPAC,3,sgSQLE_1,SQLE,CRISPR-mediated knockout,3.0,G12,HPAC_3
+Fig-3c-H12,Fig 3c,C2-Lung,HPAC,HPAC,3,sgSQLE_2,SQLE,CRISPR-mediated knockout,21.66666667,H12,HPAC_3
+Fig-3c-B13,Fig 3c,C2-Lung,HPAF-II,HPAF-II,1,sgNT,non-targeting control,non-targeting sgRNA,100.3333333,B13,HPAF-II_1
+Fig-3c-C13,Fig 3c,C2-Lung,HPAF-II,HPAF-II,1,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,33.33333333,C13,HPAF-II_1
+Fig-3c-D13,Fig 3c,C2-Lung,HPAF-II,HPAF-II,1,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,23.33333333,D13,HPAF-II_1
+Fig-3c-E13,Fig 3c,C2-Lung,HPAF-II,HPAF-II,1,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,6.666666667,E13,HPAF-II_1
+Fig-3c-F13,Fig 3c,C2-Lung,HPAF-II,HPAF-II,1,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,6.333333333,F13,HPAF-II_1
+Fig-3c-G13,Fig 3c,C2-Lung,HPAF-II,HPAF-II,1,sgSQLE_1,SQLE,CRISPR-mediated knockout,5.333333333,G13,HPAF-II_1
+Fig-3c-H13,Fig 3c,C2-Lung,HPAF-II,HPAF-II,1,sgSQLE_2,SQLE,CRISPR-mediated knockout,8.333333333,H13,HPAF-II_1
+Fig-3c-B14,Fig 3c,C2-Lung,HPAF-II,HPAF-II,2,sgNT,non-targeting control,non-targeting sgRNA,99.33333333,B14,HPAF-II_2
+Fig-3c-C14,Fig 3c,C2-Lung,HPAF-II,HPAF-II,2,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,20.66666667,C14,HPAF-II_2
+Fig-3c-D14,Fig 3c,C2-Lung,HPAF-II,HPAF-II,2,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,23.33333333,D14,HPAF-II_2
+Fig-3c-E14,Fig 3c,C2-Lung,HPAF-II,HPAF-II,2,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,5.666666667,E14,HPAF-II_2
+Fig-3c-F14,Fig 3c,C2-Lung,HPAF-II,HPAF-II,2,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,5.0,F14,HPAF-II_2
+Fig-3c-G14,Fig 3c,C2-Lung,HPAF-II,HPAF-II,2,sgSQLE_1,SQLE,CRISPR-mediated knockout,5.666666667,G14,HPAF-II_2
+Fig-3c-H14,Fig 3c,C2-Lung,HPAF-II,HPAF-II,2,sgSQLE_2,SQLE,CRISPR-mediated knockout,23.66666667,H14,HPAF-II_2
+Fig-3c-B15,Fig 3c,C2-Lung,HPAF-II,HPAF-II,3,sgNT,non-targeting control,non-targeting sgRNA,93.33333333,B15,HPAF-II_3
+Fig-3c-C15,Fig 3c,C2-Lung,HPAF-II,HPAF-II,3,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,24.33333333,C15,HPAF-II_3
+Fig-3c-D15,Fig 3c,C2-Lung,HPAF-II,HPAF-II,3,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,20.66666667,D15,HPAF-II_3
+Fig-3c-E15,Fig 3c,C2-Lung,HPAF-II,HPAF-II,3,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,5.333333333,E15,HPAF-II_3
+Fig-3c-F15,Fig 3c,C2-Lung,HPAF-II,HPAF-II,3,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,4.333333333,F15,HPAF-II_3
+Fig-3c-G15,Fig 3c,C2-Lung,HPAF-II,HPAF-II,3,sgSQLE_1,SQLE,CRISPR-mediated knockout,4.333333333,G15,HPAF-II_3
+Fig-3c-H15,Fig 3c,C2-Lung,HPAF-II,HPAF-II,3,sgSQLE_2,SQLE,CRISPR-mediated knockout,32.66666667,H15,HPAF-II_3
+Fig-3d-B7,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,1,sgNT,non-targeting control,non-targeting sgRNA,108.0,B7,MiaPaCa-2_1
+Fig-3d-C7,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,1,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,61.0,C7,MiaPaCa-2_1
+Fig-3d-D7,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,1,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,50.66666667,D7,MiaPaCa-2_1
+Fig-3d-E7,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,1,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,103.6666667,E7,MiaPaCa-2_1
+Fig-3d-F7,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,1,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,108.0,F7,MiaPaCa-2_1
+Fig-3d-G7,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,1,sgSQLE_1,SQLE,CRISPR-mediated knockout,103.0,G7,MiaPaCa-2_1
+Fig-3d-H7,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,1,sgSQLE_2,SQLE,CRISPR-mediated knockout,97.66666667,H7,MiaPaCa-2_1
+Fig-3d-B8,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,2,sgNT,non-targeting control,non-targeting sgRNA,94.0,B8,MiaPaCa-2_2
+Fig-3d-C8,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,2,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,47.66666667,C8,MiaPaCa-2_2
+Fig-3d-D8,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,2,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,48.33333333,D8,MiaPaCa-2_2
+Fig-3d-E8,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,2,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,109.6666667,E8,MiaPaCa-2_2
+Fig-3d-F8,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,2,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,103.3333333,F8,MiaPaCa-2_2
+Fig-3d-G8,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,2,sgSQLE_1,SQLE,CRISPR-mediated knockout,109.0,G8,MiaPaCa-2_2
+Fig-3d-H8,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,2,sgSQLE_2,SQLE,CRISPR-mediated knockout,97.33333333,H8,MiaPaCa-2_2
+Fig-3d-B9,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,3,sgNT,non-targeting control,non-targeting sgRNA,108.3333333,B9,MiaPaCa-2_3
+Fig-3d-C9,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,3,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,29.0,C9,MiaPaCa-2_3
+Fig-3d-D9,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,3,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,35.66666667,D9,MiaPaCa-2_3
+Fig-3d-E9,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,3,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,110.6666667,E9,MiaPaCa-2_3
+Fig-3d-F9,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,3,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,114.3333333,F9,MiaPaCa-2_3
+Fig-3d-G9,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,3,sgSQLE_1,SQLE,CRISPR-mediated knockout,108.0,G9,MiaPaCa-2_3
+Fig-3d-H9,Fig 3d,C1-Liver,MiaPaCa-2,MiaPaCa-2,3,sgSQLE_2,SQLE,CRISPR-mediated knockout,113.0,H9,MiaPaCa-2_3
+Fig-3d-B10,Fig 3d,C1-Liver,KP4,KP4,1,sgNT,non-targeting control,non-targeting sgRNA,114.3333333,B10,KP4_1
+Fig-3d-C10,Fig 3d,C1-Liver,KP4,KP4,1,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,23.0,C10,KP4_1
+Fig-3d-D10,Fig 3d,C1-Liver,KP4,KP4,1,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,26.33333333,D10,KP4_1
+Fig-3d-E10,Fig 3d,C1-Liver,KP4,KP4,1,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,113.0,E10,KP4_1
+Fig-3d-F10,Fig 3d,C1-Liver,KP4,KP4,1,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,131.3333333,F10,KP4_1
+Fig-3d-G10,Fig 3d,C1-Liver,KP4,KP4,1,sgSQLE_1,SQLE,CRISPR-mediated knockout,117.0,G10,KP4_1
+Fig-3d-H10,Fig 3d,C1-Liver,KP4,KP4,1,sgSQLE_2,SQLE,CRISPR-mediated knockout,91.33333333,H10,KP4_1
+Fig-3d-B11,Fig 3d,C1-Liver,KP4,KP4,2,sgNT,non-targeting control,non-targeting sgRNA,120.3333333,B11,KP4_2
+Fig-3d-C11,Fig 3d,C1-Liver,KP4,KP4,2,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,22.66666667,C11,KP4_2
+Fig-3d-D11,Fig 3d,C1-Liver,KP4,KP4,2,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,26.66666667,D11,KP4_2
+Fig-3d-E11,Fig 3d,C1-Liver,KP4,KP4,2,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,125.3333333,E11,KP4_2
+Fig-3d-F11,Fig 3d,C1-Liver,KP4,KP4,2,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,109.6666667,F11,KP4_2
+Fig-3d-G11,Fig 3d,C1-Liver,KP4,KP4,2,sgSQLE_1,SQLE,CRISPR-mediated knockout,108.6666667,G11,KP4_2
+Fig-3d-H11,Fig 3d,C1-Liver,KP4,KP4,2,sgSQLE_2,SQLE,CRISPR-mediated knockout,99.66666667,H11,KP4_2
+Fig-3d-B12,Fig 3d,C1-Liver,KP4,KP4,3,sgNT,non-targeting control,non-targeting sgRNA,109.0,B12,KP4_3
+Fig-3d-C12,Fig 3d,C1-Liver,KP4,KP4,3,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,34.0,C12,KP4_3
+Fig-3d-D12,Fig 3d,C1-Liver,KP4,KP4,3,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,46.66666667,D12,KP4_3
+Fig-3d-E12,Fig 3d,C1-Liver,KP4,KP4,3,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,107.0,E12,KP4_3
+Fig-3d-F12,Fig 3d,C1-Liver,KP4,KP4,3,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,117.6666667,F12,KP4_3
+Fig-3d-G12,Fig 3d,C1-Liver,KP4,KP4,3,sgSQLE_1,SQLE,CRISPR-mediated knockout,126.6666667,G12,KP4_3
+Fig-3d-H12,Fig 3d,C1-Liver,KP4,KP4,3,sgSQLE_2,SQLE,CRISPR-mediated knockout,92.33333333,H12,KP4_3
+Fig-3d-B13,Fig 3d,C1-Liver,Panc-1,Panc-1,1,sgNT,non-targeting control,non-targeting sgRNA,104.0,B13,Panc-1_1
+Fig-3d-C13,Fig 3d,C1-Liver,Panc-1,Panc-1,1,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,19.66666667,C13,Panc-1_1
+Fig-3d-D13,Fig 3d,C1-Liver,Panc-1,Panc-1,1,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,16.0,D13,Panc-1_1
+Fig-3d-E13,Fig 3d,C1-Liver,Panc-1,Panc-1,1,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,97.33333333,E13,Panc-1_1
+Fig-3d-F13,Fig 3d,C1-Liver,Panc-1,Panc-1,1,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,97.33333333,F13,Panc-1_1
+Fig-3d-G13,Fig 3d,C1-Liver,Panc-1,Panc-1,1,sgSQLE_1,SQLE,CRISPR-mediated knockout,119.0,G13,Panc-1_1
+Fig-3d-H13,Fig 3d,C1-Liver,Panc-1,Panc-1,1,sgSQLE_2,SQLE,CRISPR-mediated knockout,87.66666667,H13,Panc-1_1
+Fig-3d-B14,Fig 3d,C1-Liver,Panc-1,Panc-1,2,sgNT,non-targeting control,non-targeting sgRNA,112.3333333,B14,Panc-1_2
+Fig-3d-C14,Fig 3d,C1-Liver,Panc-1,Panc-1,2,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,17.0,C14,Panc-1_2
+Fig-3d-D14,Fig 3d,C1-Liver,Panc-1,Panc-1,2,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,8.666666667,D14,Panc-1_2
+Fig-3d-E14,Fig 3d,C1-Liver,Panc-1,Panc-1,2,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,95.0,E14,Panc-1_2
+Fig-3d-F14,Fig 3d,C1-Liver,Panc-1,Panc-1,2,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,92.66666667,F14,Panc-1_2
+Fig-3d-G14,Fig 3d,C1-Liver,Panc-1,Panc-1,2,sgSQLE_1,SQLE,CRISPR-mediated knockout,83.0,G14,Panc-1_2
+Fig-3d-H14,Fig 3d,C1-Liver,Panc-1,Panc-1,2,sgSQLE_2,SQLE,CRISPR-mediated knockout,94.33333333,H14,Panc-1_2
+Fig-3d-B15,Fig 3d,C1-Liver,Panc-1,Panc-1,3,sgNT,non-targeting control,non-targeting sgRNA,92.33333333,B15,Panc-1_3
+Fig-3d-C15,Fig 3d,C1-Liver,Panc-1,Panc-1,3,sgHMGCR_1,HMGCR,CRISPR-mediated knockout,20.33333333,C15,Panc-1_3
+Fig-3d-D15,Fig 3d,C1-Liver,Panc-1,Panc-1,3,sgHMGCR_2,HMGCR,CRISPR-mediated knockout,8.0,D15,Panc-1_3
+Fig-3d-E15,Fig 3d,C1-Liver,Panc-1,Panc-1,3,sgFDFT1_1,FDFT1,CRISPR-mediated knockout,98.0,E15,Panc-1_3
+Fig-3d-F15,Fig 3d,C1-Liver,Panc-1,Panc-1,3,sgFDFT1_2,FDFT1,CRISPR-mediated knockout,86.33333333,F15,Panc-1_3
+Fig-3d-G15,Fig 3d,C1-Liver,Panc-1,Panc-1,3,sgSQLE_1,SQLE,CRISPR-mediated knockout,90.66666667,G15,Panc-1_3
+Fig-3d-H15,Fig 3d,C1-Liver,Panc-1,Panc-1,3,sgSQLE_2,SQLE,CRISPR-mediated knockout,89.0,H15,Panc-1_3

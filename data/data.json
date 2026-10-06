@@ -1,0 +1,342 @@
+{
+  "models": [
+    {
+      "name": "CAPAN-2",
+      "group": "C2-Lung",
+      "control": [
+        94.33333333,
+        103.3333333,
+        99.66666667
+      ],
+      "genes": {
+        "HMGCR": [
+          [
+            11.33333333,
+            13.66666667,
+            18.0
+          ],
+          [
+            15.33333333,
+            12.0,
+            8.666666667
+          ]
+        ],
+        "FDFT1": [
+          [
+            5.333333333,
+            4.666666667,
+            4.333333333
+          ],
+          [
+            5.0,
+            5.0,
+            4.333333333
+          ]
+        ],
+        "SQLE": [
+          [
+            3.333333333,
+            5.333333333,
+            3.666666667
+          ],
+          [
+            18.66666667,
+            20.66666667,
+            35.66666667
+          ]
+        ]
+      }
+    },
+    {
+      "name": "HPAC",
+      "group": "C2-Lung",
+      "control": [
+        98.33333333,
+        98.66666667,
+        90.33333333
+      ],
+      "genes": {
+        "HMGCR": [
+          [
+            31.66666667,
+            30.0,
+            26.66666667
+          ],
+          [
+            17.33333333,
+            22.66666667,
+            37.33333333
+          ]
+        ],
+        "FDFT1": [
+          [
+            15.66666667,
+            12.0,
+            10.66666667
+          ],
+          [
+            9.0,
+            5.333333333,
+            16.0
+          ]
+        ],
+        "SQLE": [
+          [
+            7.666666667,
+            9.333333333,
+            3.0
+          ],
+          [
+            26.0,
+            25.0,
+            21.66666667
+          ]
+        ]
+      }
+    },
+    {
+      "name": "HPAF-II",
+      "group": "C2-Lung",
+      "control": [
+        100.3333333,
+        99.33333333,
+        93.33333333
+      ],
+      "genes": {
+        "HMGCR": [
+          [
+            33.33333333,
+            20.66666667,
+            24.33333333
+          ],
+          [
+            23.33333333,
+            23.33333333,
+            20.66666667
+          ]
+        ],
+        "FDFT1": [
+          [
+            6.666666667,
+            5.666666667,
+            5.333333333
+          ],
+          [
+            6.333333333,
+            5.0,
+            4.333333333
+          ]
+        ],
+        "SQLE": [
+          [
+            5.333333333,
+            5.666666667,
+            4.333333333
+          ],
+          [
+            8.333333333,
+            23.66666667,
+            32.66666667
+          ]
+        ]
+      }
+    },
+    {
+      "name": "MiaPaCa-2",
+      "group": "C1-Liver",
+      "control": [
+        108.0,
+        94.0,
+        108.3333333
+      ],
+      "genes": {
+        "HMGCR": [
+          [
+            61.0,
+            47.66666667,
+            29.0
+          ],
+          [
+            50.66666667,
+            48.33333333,
+            35.66666667
+          ]
+        ],
+        "FDFT1": [
+          [
+            103.6666667,
+            109.6666667,
+            110.6666667
+          ],
+          [
+            108.0,
+            103.3333333,
+            114.3333333
+          ]
+        ],
+        "SQLE": [
+          [
+            103.0,
+            109.0,
+            108.0
+          ],
+          [
+            97.66666667,
+            97.33333333,
+            113.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "KP4",
+      "group": "C1-Liver",
+      "control": [
+        114.3333333,
+        120.3333333,
+        109.0
+      ],
+      "genes": {
+        "HMGCR": [
+          [
+            23.0,
+            22.66666667,
+            34.0
+          ],
+          [
+            26.33333333,
+            26.66666667,
+            46.66666667
+          ]
+        ],
+        "FDFT1": [
+          [
+            113.0,
+            125.3333333,
+            107.0
+          ],
+          [
+            131.3333333,
+            109.6666667,
+            117.6666667
+          ]
+        ],
+        "SQLE": [
+          [
+            117.0,
+            108.6666667,
+            126.6666667
+          ],
+          [
+            91.33333333,
+            99.66666667,
+            92.33333333
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Panc-1",
+      "group": "C1-Liver",
+      "control": [
+        104.0,
+        112.3333333,
+        92.33333333
+      ],
+      "genes": {
+        "HMGCR": [
+          [
+            19.66666667,
+            17.0,
+            20.33333333
+          ],
+          [
+            16.0,
+            8.666666667,
+            8.0
+          ]
+        ],
+        "FDFT1": [
+          [
+            97.33333333,
+            95.0,
+            98.0
+          ],
+          [
+            97.33333333,
+            92.66666667,
+            86.33333333
+          ]
+        ],
+        "SQLE": [
+          [
+            119.0,
+            83.0,
+            90.66666667
+          ],
+          [
+            87.66666667,
+            94.33333333,
+            89.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source": {
+    "publication": "Rademaker et al., Nature 643, 1381-1390 (2025)",
+    "title": "PCSK9 drives sterol-dependent metastatic organ choice in pancreatic cancer",
+    "doi": "10.1038/s41586-025-09017-8",
+    "article_url": "https://www.nature.com/articles/s41586-025-09017-8",
+    "figure_legend_url": "https://www.nature.com/articles/s41586-025-09017-8/figures/3",
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-09017-8/MediaObjects/41586_2025_9017_MOESM8_ESM.xlsx",
+    "source_sha256": "21184a0df0f9d73e679be131fce889b31c2e751529ae223246c743e99943dd48",
+    "source_filename": "41586_2025_9017_MOESM8_ESM.xlsx",
+    "accessed": "2026-10-06",
+    "ownership": "Publisher-hosted source data of Rushika M. Perera and coauthors; UCSF lab publication list confirms authorship.",
+    "source_ranges": [
+      "Fig 3c!A6:H15",
+      "Fig 3d!A6:H15"
+    ],
+    "source_unit": "Colony number, as described by source workbook and figure legend.",
+    "unit_caution": "Values are fractional, processed reported measurements, not individual raw integer colony counts. No additional normalization is asserted.",
+    "design": "Two organ-avid cell-model groups, three distinct models per group, three biological replicate entries per model and condition. The figure legend reports nine biological replicates per group.",
+    "pairing": "Replicate suffixes are retained for provenance only. Matched samples across guide conditions are not documented; no paired analysis or rowwise control ratio is warranted.",
+    "excluded_data": "Other workbook panels, published figure images, clinical records, original microscopy and raw assay files are not incorporated.",
+    "license": "The Nature page states exclusive publisher/licensor rights; no CC license was identified. This repository does not redistribute the original workbook, article, or figure artwork. It provides newly organized factual measurements and original analysis with attribution. Source rights remain with their owners.",
+    "github_search": {
+      "result": "No verified target-owned research repository located in the bounded search.",
+      "official_pages_checked": [
+        "https://www.rushikapereralab.com/",
+        "https://www.rushikapereralab.com/about",
+        "https://www.rushikapereralab.com/publications",
+        "https://www.rushikapereralab.com/new-page"
+      ],
+      "publication_checked": "https://www.nature.com/articles/s41586-025-09017-8#data-availability",
+      "queries": [
+        "site:github.com \"Rushika\" \"Perera\"",
+        "site:github.com \"Rademaker\" \"PCSK9\"",
+        "site:github.com \"PereraLab\" lysosome",
+        "GitHub API repositories: PCSK9 Perera",
+        "GitHub API repositories: Perera lysosome",
+        "GitHub API users: Rushika Perera"
+      ],
+      "caution": "Namesake virology research and unverified accounts were not attributed to this UCSF lab."
+    },
+    "transformations": [
+      "Verify source SHA-256.",
+      "Read only OpenXML cell values.",
+      "Select the two named sheets and explicit A6:H15 ranges.",
+      "Map source CAPAN_2 to display CAPAN-2; preserve original label.",
+      "Retain all 126 nonnegative values, model IDs, source cells and replicate suffixes.",
+      "No exclusions, imputations, pooled-model inference, or paired normalization."
+    ]
+  },
+  "coverage": {
+    "reported_measurements": 126,
+    "cell_models": 6,
+    "guides_including_control": 7,
+    "biological_replicates_per_model_condition": 3,
+    "groups": 2
+  }
+}

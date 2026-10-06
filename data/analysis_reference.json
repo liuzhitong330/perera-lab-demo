@@ -1,0 +1,1622 @@
+[
+  {
+    "model": "CAPAN-2",
+    "group": "C2-Lung",
+    "gene": "HMGCR",
+    "control_mean": 99.1111111,
+    "guide_means": [
+      14.333333333333334,
+      11.999999999
+    ],
+    "guide_effects": [
+      85.53811659030697,
+      87.89237668126596
+    ],
+    "all_data_minimum_reduction_pct": 85.53811659030697,
+    "conservative_reduction_pct": 84.02466367365747,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          85.53811659030697,
+          87.89237668126596
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          85.87848932467827,
+          88.17733990071586
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          85.2233676975945,
+          87.62886598041237
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          85.4974704863486,
+          87.85834738493156
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 1",
+        "effects": [
+          84.02466367365747,
+          87.89237668126596
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 2",
+        "effects": [
+          85.20179372199573,
+          87.89237668126596
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 3",
+        "effects": [
+          87.3878923752677,
+          87.89237668126596
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 1",
+        "effects": [
+          85.53811659030697,
+          89.57399103005314
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 2",
+        "effects": [
+          85.53811659030697,
+          87.89237668177044
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 3",
+        "effects": [
+          85.53811659030697,
+          86.2107623319743
+        ]
+      }
+    ]
+  },
+  {
+    "model": "CAPAN-2",
+    "group": "C2-Lung",
+    "gene": "FDFT1",
+    "control_mean": 99.1111111,
+    "guide_means": [
+      4.777777777666667,
+      4.777777777666667
+    ],
+    "guide_effects": [
+      95.17937219688109,
+      95.17937219688109
+    ],
+    "all_data_minimum_reduction_pct": 95.17937219688109,
+    "conservative_reduction_pct": 94.95515695010708,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          95.17937219688109,
+          95.17937219688109
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          95.29282977500222,
+          95.29282977500222
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          95.07445589931271,
+          95.07445589931271
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          95.16582349556195,
+          95.16582349556195
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 1",
+        "effects": [
+          95.45964125509637,
+          95.17937219688109
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 2",
+        "effects": [
+          95.12331838543983,
+          95.17937219688109
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 3",
+        "effects": [
+          94.95515695010708,
+          95.17937219688109
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 1",
+        "effects": [
+          95.17937219688109,
+          95.2914798202681
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 2",
+        "effects": [
+          95.17937219688109,
+          95.2914798202681
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 3",
+        "effects": [
+          95.17937219688109,
+          94.95515695010708
+        ]
+      }
+    ]
+  },
+  {
+    "model": "CAPAN-2",
+    "group": "C2-Lung",
+    "gene": "SQLE",
+    "control_mean": 99.1111111,
+    "guide_means": [
+      4.111111111,
+      25.000000003333334
+    ],
+    "guide_effects": [
+      95.85201793686682,
+      74.77578474717217
+    ],
+    "all_data_minimum_reduction_pct": 74.77578474717217,
+    "conservative_reduction_pct": 71.58071748224,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          95.85201793686682,
+          74.77578474717217
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          95.9496442250172,
+          75.36945812115476
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          95.7617411226804,
+          74.22680412027492
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          95.84035975201087,
+          74.70489037979348
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 1",
+        "effects": [
+          95.45964125509637,
+          74.77578474717217
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 2",
+        "effects": [
+          96.46860986507497,
+          74.77578474717217
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 3",
+        "effects": [
+          95.62780269042914,
+          74.77578474717217
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 1",
+        "effects": [
+          95.85201793686682,
+          71.58071748224
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 2",
+        "effects": [
+          95.85201793686682,
+          72.58968609221857
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 3",
+        "effects": [
+          95.85201793686682,
+          80.15695066705794
+        ]
+      }
+    ]
+  },
+  {
+    "model": "HPAC",
+    "group": "C2-Lung",
+    "gene": "HMGCR",
+    "control_mean": 95.77777777666667,
+    "guide_means": [
+      29.44444444666667,
+      25.777777776666667
+    ],
+    "guide_effects": [
+      69.25754060057143,
+      73.08584686859729
+    ],
+    "all_data_minimum_reduction_pct": 69.25754060057143,
+    "conservative_reduction_pct": 67.80742459185392,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          69.25754060057143,
+          73.08584686859729
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          68.84185772839506,
+          72.7219282786596
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          68.78680800596419,
+          72.67373380468811
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          70.10716299830794,
+          73.82966723181049
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 1",
+        "effects": [
+          70.41763340858952,
+          73.08584686859729
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 2",
+        "effects": [
+          69.54756380127085,
+          73.08584686859729
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 3",
+        "effects": [
+          67.80742459185392,
+          73.08584686859729
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 1",
+        "effects": [
+          69.25754060057143,
+          68.6774941991726
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 2",
+        "effects": [
+          69.25754060057143,
+          71.46171694050419
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 3",
+        "effects": [
+          69.25754060057143,
+          79.11832946611506
+        ]
+      }
+    ]
+  },
+  {
+    "model": "HPAC",
+    "group": "C2-Lung",
+    "gene": "FDFT1",
+    "control_mean": 95.77777777666667,
+    "guide_means": [
+      12.77777778,
+      10.111111111
+    ],
+    "guide_effects": [
+      86.65893271214222,
+      89.44315545242974
+    ],
+    "all_data_minimum_reduction_pct": 86.65893271214222,
+    "conservative_reduction_pct": 85.5568445456561,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          86.65893271214222,
+          89.44315545242974
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          86.47854203174603,
+          89.30041152275132
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          86.45465252955671,
+          89.281507655805
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          87.0276367715736,
+          89.73491257766497
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 1",
+        "effects": [
+          88.16705336239174,
+          89.44315545242974
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 2",
+        "effects": [
+          86.2529002283788,
+          89.44315545242974
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 3",
+        "effects": [
+          85.5568445456561,
+          89.44315545242974
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 1",
+        "effects": [
+          86.65893271214222,
+          88.86310904876872
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 2",
+        "effects": [
+          86.65893271214222,
+          86.9489559163219
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 3",
+        "effects": [
+          86.65893271214222,
+          92.51740139219858
+        ]
+      }
+    ]
+  },
+  {
+    "model": "HPAC",
+    "group": "C2-Lung",
+    "gene": "SQLE",
+    "control_mean": 95.77777777666667,
+    "guide_means": [
+      6.666666666666667,
+      24.222222223333333
+    ],
+    "guide_effects": [
+      93.03944315537169,
+      74.70997679669037
+    ],
+    "all_data_minimum_reduction_pct": 74.70997679669037,
+    "conservative_reduction_pct": 73.37587006929671,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          93.03944315537169,
+          74.70997679669037
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          92.9453262786596,
+          74.36801881128747
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          92.932862190563,
+          74.32273262453437
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          93.23181049069373,
+          75.40891144839256
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 1",
+        "effects": [
+          93.56148491889283,
+          74.70997679669037
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 2",
+        "effects": [
+          94.43155452412334,
+          74.70997679669037
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 3",
+        "effects": [
+          91.1252900230989,
+          74.70997679669037
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 1",
+        "effects": [
+          93.03944315537169,
+          75.63805104206077
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 2",
+        "effects": [
+          93.03944315537169,
+          75.11600927871365
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 3",
+        "effects": [
+          93.03944315537169,
+          73.37587006929671
+        ]
+      }
+    ]
+  },
+  {
+    "model": "HPAF-II",
+    "group": "C2-Lung",
+    "gene": "HMGCR",
+    "control_mean": 97.66666665333334,
+    "guide_means": [
+      26.11111111,
+      22.44444444333333
+    ],
+    "guide_effects": [
+      73.26507394515565,
+      77.01934015727227
+    ],
+    "all_data_minimum_reduction_pct": 73.26507394515565,
+    "conservative_reduction_pct": 70.47781569904134,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          73.26507394515565,
+          77.01934015727227
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          72.89504036930433,
+          76.70126874313846
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          73.03499712742487,
+          76.821571999054
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          73.84529771472953,
+          77.5180856953706
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 1",
+        "effects": [
+          76.9624573347389,
+          77.01934015727227
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 2",
+        "effects": [
+          70.47781569904134,
+          77.01934015727227
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 3",
+        "effects": [
+          72.35494880168669,
+          77.01934015727227
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 1",
+        "effects": [
+          73.26507394515565,
+          77.47440272730026
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 2",
+        "effects": [
+          73.26507394515565,
+          77.47440272730026
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 3",
+        "effects": [
+          73.26507394515565,
+          76.10921501721629
+        ]
+      }
+    ]
+  },
+  {
+    "model": "HPAF-II",
+    "group": "C2-Lung",
+    "gene": "FDFT1",
+    "control_mean": 97.66666665333334,
+    "guide_means": [
+      5.888888889,
+      5.222222222
+    ],
+    "guide_effects": [
+      93.97042093194136,
+      94.65301478903113
+    ],
+    "all_data_minimum_reduction_pct": 93.97042093194136,
+    "conservative_reduction_pct": 93.68600682473529,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          93.97042093194136,
+          94.65301478903113
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          93.88696655099955,
+          94.57900807386086
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          93.91853126666273,
+          94.60699942548497
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          94.10127990976818,
+          94.7690595429459
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 1",
+        "effects": [
+          94.36860068182507,
+          94.65301478903113
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 2",
+        "effects": [
+          93.8566552892637,
+          94.65301478903113
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 3",
+        "effects": [
+          93.68600682473529,
+          94.65301478903113
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 1",
+        "effects": [
+          93.97042093194136,
+          95.22184300293131
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 2",
+        "effects": [
+          93.97042093194136,
+          94.53924914635348
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 3",
+        "effects": [
+          93.97042093194136,
+          94.1979522178086
+        ]
+      }
+    ]
+  },
+  {
+    "model": "HPAF-II",
+    "group": "C2-Lung",
+    "gene": "SQLE",
+    "control_mean": 97.66666665333334,
+    "guide_means": [
+      5.111111111,
+      21.555555557666665
+    ],
+    "guide_effects": [
+      94.76678043170878,
+      77.92946529630437
+    ],
+    "all_data_minimum_reduction_pct": 77.92946529630437,
+    "conservative_reduction_pct": 71.16040954896388,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          94.76678043170878,
+          77.92946529630437
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          94.69434832749808,
+          77.62399076981397
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          94.7217441184499,
+          77.73952954036378
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          94.88035614830858,
+          78.40845853593478
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 1",
+        "effects": [
+          94.88054607438642,
+          77.92946529630437
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 2",
+        "effects": [
+          95.05119453891484,
+          77.92946529630437
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 3",
+        "effects": [
+          94.36860068182507,
+          77.92946529630437
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 1",
+        "effects": [
+          94.76678043170878,
+          71.16040954896388
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 2",
+        "effects": [
+          94.76678043170878,
+          79.0102389034485
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 3",
+        "effects": [
+          94.76678043170878,
+          83.61774743650071
+        ]
+      }
+    ]
+  },
+  {
+    "model": "MiaPaCa-2",
+    "group": "C1-Liver",
+    "gene": "HMGCR",
+    "control_mean": 103.44444443333333,
+    "guide_means": [
+      45.88888889,
+      44.88888889
+    ],
+    "guide_effects": [
+      55.639097738521926,
+      56.60580020908763
+    ],
+    "all_data_minimum_reduction_pct": 55.639097738521926,
+    "conservative_reduction_pct": 47.47583243098559,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          55.639097738521926,
+          56.60580020908763
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          54.64030751476776,
+          55.62877538972468
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          57.57575756819349,
+          58.500256797919924
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          54.56545654455446,
+          55.55555555445545
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 1",
+        "effects": [
+          62.94307196003685,
+          56.60580020908763
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 2",
+        "effects": [
+          56.49838882454332,
+          56.60580020908763
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 3",
+        "effects": [
+          47.47583243098559,
+          56.60580020908763
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 1",
+        "effects": [
+          55.639097738521926,
+          59.39849623624044
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 2",
+        "effects": [
+          55.639097738521926,
+          58.27067668402478
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 3",
+        "effects": [
+          55.639097738521926,
+          52.148227706997666
+        ]
+      }
+    ]
+  },
+  {
+    "model": "MiaPaCa-2",
+    "group": "C1-Liver",
+    "gene": "FDFT1",
+    "control_mean": 103.44444443333333,
+    "guide_means": [
+      108.00000003333332,
+      108.55555553333333
+    ],
+    "guide_effects": [
+      -4.403866853319416,
+      -4.940923727705804
+    ],
+    "all_data_minimum_reduction_pct": -4.940923727705804,
+    "conservative_reduction_pct": -7.480748052805275,
+    "default_threshold_pct": 30,
+    "default_classification": "below threshold",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          -4.403866853319416,
+          -4.940923727705804
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          -6.754530528295621,
+          -7.303679292801268
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          0.15408315872944556,
+          -0.3595274730908482
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          -6.930693102310226,
+          -7.480748052805275
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 1",
+        "effects": [
+          -6.498388872878458,
+          -4.940923727705804
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 2",
+        "effects": [
+          -3.5982814611813296,
+          -4.940923727705804
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 3",
+        "effects": [
+          -3.1149302258984823,
+          -4.940923727705804
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 1",
+        "effects": [
+          -4.403866853319416,
+          -5.209452181010699
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 2",
+        "effects": [
+          -4.403866853319416,
+          -7.465091295109039
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 3",
+        "effects": [
+          -4.403866853319416,
+          -2.148227706997652
+        ]
+      }
+    ]
+  },
+  {
+    "model": "MiaPaCa-2",
+    "group": "C1-Liver",
+    "gene": "SQLE",
+    "control_mean": 103.44444443333333,
+    "guide_means": [
+      106.66666666666667,
+      102.66666666666667
+    ],
+    "guide_effects": [
+      -3.1149301936750806,
+      0.751879688587731
+    ],
+    "all_data_minimum_reduction_pct": -3.1149301936750806,
+    "conservative_reduction_pct": -5.610561056105623,
+    "default_threshold_pct": 30,
+    "default_classification": "below threshold",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          -3.1149301936750806,
+          0.751879688587731
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          -5.436573328737504,
+          -1.4827018289098381
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          1.3867488291813057,
+          5.0847457480870055
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          -5.610561056105623,
+          -1.650165016501659
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 1",
+        "effects": [
+          -4.887218056378861,
+          0.751879688587731
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 2",
+        "effects": [
+          -1.9871106446817555,
+          0.751879688587731
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 3",
+        "effects": [
+          -2.4704618799646028,
+          0.751879688587731
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 1",
+        "effects": [
+          -3.1149301936750806,
+          -1.6648764862153609
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 2",
+        "effects": [
+          -3.1149301936750806,
+          -1.8259935678653028
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 3",
+        "effects": [
+          -3.1149301936750806,
+          5.7465091198438785
+        ]
+      }
+    ]
+  },
+  {
+    "model": "KP4",
+    "group": "C1-Liver",
+    "gene": "HMGCR",
+    "control_mean": 114.55555553333333,
+    "guide_means": [
+      26.55555555666667,
+      33.22222222333333
+    ],
+    "guide_effects": [
+      76.81862269094445,
+      70.99903006129952
+    ],
+    "all_data_minimum_reduction_pct": 70.99903006129952,
+    "conservative_reduction_pct": 67.99224053404312,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          76.81862269094445,
+          70.99903006129952
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          76.84108526698272,
+          71.02713177776558
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          76.21890546809237,
+          70.24875621346996
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          77.36742423504757,
+          71.68560605161522
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 1",
+        "effects": [
+          75.26673132255416,
+          70.99903006129952
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 2",
+        "effects": [
+          75.12124150826794,
+          70.99903006129952
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 3",
+        "effects": [
+          80.06789524201123,
+          70.99903006129952
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 1",
+        "effects": [
+          76.81862269094445,
+          67.99224053404312
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 2",
+        "effects": [
+          76.81862269094445,
+          68.13773035269404
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 3",
+        "effects": [
+          76.81862269094445,
+          76.86711929716142
+        ]
+      }
+    ]
+  },
+  {
+    "model": "KP4",
+    "group": "C1-Liver",
+    "gene": "FDFT1",
+    "control_mean": 114.55555553333333,
+    "guide_means": [
+      115.1111111,
+      119.55555556666665
+    ],
+    "guide_effects": [
+      -0.4849660621697227,
+      -4.364694501331656
+    ],
+    "all_data_minimum_reduction_pct": -4.364694501331656,
+    "conservative_reduction_pct": -8.680892358618998,
+    "default_threshold_pct": 30,
+    "default_classification": "below threshold",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          -0.4849660621697227,
+          -4.364694501331656
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          -0.3875969041261085,
+          -4.26356591631738
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          -3.0845771198633853,
+          -7.064676642845469
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          1.8939393755380562,
+          -1.8939394323562064
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 1",
+        "effects": [
+          -1.4064015570138588,
+          -4.364694501331656
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 2",
+        "effects": [
+          3.9767216108587244,
+          -4.364694501331656
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 3",
+        "effects": [
+          -4.025218240354067,
+          -4.364694501331656
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 1",
+        "effects": [
+          -0.4849660621697227,
+          0.7759456354560545
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 2",
+        "effects": [
+          -0.4849660621697227,
+          -8.680892358618998
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 3",
+        "effects": [
+          -0.4849660621697227,
+          -5.189136780832038
+        ]
+      }
+    ]
+  },
+  {
+    "model": "KP4",
+    "group": "C1-Liver",
+    "gene": "SQLE",
+    "control_mean": 114.55555553333333,
+    "guide_means": [
+      117.44444446666667,
+      94.44444444333334
+    ],
+    "guide_effects": [
+      -2.5218235116434284,
+      17.55577108100015
+    ],
+    "all_data_minimum_reduction_pct": -2.5218235116434284,
+    "conservative_reduction_pct": -6.353055321310008,
+    "default_threshold_pct": 30,
+    "default_classification": "below threshold",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          -2.5218235116434284,
+          17.55577108100015
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          -2.422480654421877,
+          17.635658903726103
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          -5.174129388831972,
+          15.422885560510869
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          -0.09469701707234268,
+          19.507575735655557
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 1",
+        "effects": [
+          -2.7158099423308935,
+          17.55577108100015
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 2",
+        "effects": [
+          -6.353055321310008,
+          17.55577108100015
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 3",
+        "effects": [
+          1.5033947287106497,
+          17.55577108100015
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 1",
+        "effects": [
+          -2.5218235116434284,
+          16.19786613311307
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 2",
+        "effects": [
+          -2.5218235116434284,
+          19.835111529550943
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 3",
+        "effects": [
+          -2.5218235116434284,
+          16.634335580336433
+        ]
+      }
+    ]
+  },
+  {
+    "model": "Panc-1",
+    "group": "C1-Liver",
+    "gene": "HMGCR",
+    "control_mean": 102.88888887666667,
+    "guide_means": [
+      19.0,
+      10.888888889
+    ],
+    "guide_effects": [
+      81.5334773196206,
+      89.41684665090264
+    ],
+    "all_data_minimum_reduction_pct": 81.5334773196206,
+    "conservative_reduction_pct": 80.56155507328485,
+    "default_threshold_pct": 30,
+    "default_classification": "shortlist",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          81.5334773196206,
+          89.41684665090264
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          81.43322475237403,
+          89.35939196324028
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          80.64516128999398,
+          88.90775325380149
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          82.43451463519791,
+          89.93323060954287
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 1",
+        "effects": [
+          81.8574514033524,
+          89.41684665090264
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 2",
+        "effects": [
+          80.56155507328485,
+          89.41684665090264
+        ]
+      },
+      {
+        "omitted": "HMGCR_1 observation 3",
+        "effects": [
+          82.18142548222458,
+          89.41684665090264
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 1",
+        "effects": [
+          81.5334773196206,
+          91.90064794704004
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 2",
+        "effects": [
+          81.5334773196206,
+          88.33693304397092
+        ]
+      },
+      {
+        "omitted": "HMGCR_2 observation 3",
+        "effects": [
+          81.5334773196206,
+          88.01295896169701
+        ]
+      }
+    ]
+  },
+  {
+    "model": "Panc-1",
+    "group": "C1-Liver",
+    "gene": "FDFT1",
+    "control_mean": 102.88888887666667,
+    "guide_means": [
+      96.77777777666667,
+      92.11111111
+    ],
+    "guide_effects": [
+      5.939524827919385,
+      10.475161977486259
+    ],
+    "all_data_minimum_reduction_pct": 5.939524827919385,
+    "conservative_reduction_pct": 1.4148273905163933,
+    "default_threshold_pct": 30,
+    "default_classification": "below threshold",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          5.939524827919385,
+          10.475161977486259
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          5.428881634523098,
+          9.989142221659296
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          1.4148273905163933,
+          6.168647424552964
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          10.529018990836514,
+          14.843348729559835
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 1",
+        "effects": [
+          6.2095032285994005,
+          10.475161977486259
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 2",
+        "effects": [
+          5.07559394282755,
+          10.475161977486259
+        ]
+      },
+      {
+        "omitted": "FDFT1_1 observation 3",
+        "effects": [
+          6.533477312331182,
+          10.475161977486259
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 1",
+        "effects": [
+          5.939524827919385,
+          13.012958952949704
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 2",
+        "effects": [
+          5.939524827919385,
+          10.745140381406015
+        ]
+      },
+      {
+        "omitted": "FDFT1_2 observation 3",
+        "effects": [
+          5.939524827919385,
+          7.667386598103043
+        ]
+      }
+    ]
+  },
+  {
+    "model": "Panc-1",
+    "group": "C1-Liver",
+    "gene": "SQLE",
+    "control_mean": 102.88888887666667,
+    "guide_means": [
+      97.55555555666666,
+      90.33333333333333
+    ],
+    "guide_effects": [
+      5.18358530083175,
+      12.203023747669917
+    ],
+    "all_data_minimum_reduction_pct": 5.18358530083175,
+    "conservative_reduction_pct": -1.889848825818441,
+    "default_threshold_pct": 30,
+    "default_classification": "below threshold",
+    "scenarios": [
+      {
+        "omitted": "none",
+        "effects": [
+          5.18358530083175,
+          12.203023747669917
+        ]
+      },
+      {
+        "omitted": "sgNT observation 1",
+        "effects": [
+          4.668838201162185,
+          11.72638434900637
+        ]
+      },
+      {
+        "omitted": "sgNT observation 2",
+        "effects": [
+          0.6225240492465756,
+          7.979626484006452
+        ]
+      },
+      {
+        "omitted": "sgNT observation 3",
+        "effects": [
+          9.809964032328189,
+          16.486902914712932
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 1",
+        "effects": [
+          15.604751608225198,
+          12.203023747669917
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 2",
+        "effects": [
+          -1.889848825818441,
+          12.203023747669917
+        ]
+      },
+      {
+        "omitted": "SQLE_1 observation 3",
+        "effects": [
+          1.835853120088493,
+          12.203023747669917
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 1",
+        "effects": [
+          5.18358530083175,
+          10.90712742084209
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 2",
+        "effects": [
+          5.18358530083175,
+          14.146868238721567
+        ]
+      },
+      {
+        "omitted": "SQLE_2 observation 3",
+        "effects": [
+          5.18358530083175,
+          11.555075583446072
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A model-aware reanalysis of public PDAC sterol-pathway colony measurements, with guide concordance and sensitivity checks.">
+  <title>Choosing a sterol-pathway follow-up in PDAC · Cathy Liu</title>
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+  <main class="page">
+    <h1>Choosing a sterol-pathway follow-up in PDAC</h1>
+    <div class="byline">
+      Cathy Liu · Biotechnology · <a href="mailto:cathyliu014@gmail.com">cathyliu014@gmail.com</a><br>
+      Exploratory analyses inspired by the Perera Lab, UCSF<br>
+      Personal research project · October 2026
+    </div>
+    <nav class="section-nav" aria-label="Demo sections">
+      <a href="#motivation">Motivation</a><a href="#a1">Model explorer</a><a href="#a2">Follow-up selection</a><a href="#relevance">Relevance &amp; methods</a>
+    </nav>
+    <p>Pancreatic cancer cells can acquire cholesterol from their surroundings or make it themselves. The Perera Lab’s <a href="https://www.nature.com/articles/s41586-025-09017-8">2025 study</a> connects these strategies to the environments in which metastases grow. But a group-level result leaves a practical question: which individual model and perturbation would be a useful starting point for the next experiment?</p>
+    <p>I built a small, reproducible review tool over the study’s colony measurements. It keeps each cell model visible, asks whether two guides agree, and checks how much a single observation can change the shortlist. This is an experimental planning aid, not a new validation of the paper’s mechanism.</p>
+    <hr id="motivation">
+    <section aria-labelledby="how-heading">
+      <h2 id="how-heading">How it works</h2>
+      <p>The source contains six PDAC models, seven conditions and three biological replicates per condition: 126 reported colony measurements. Within each model, the mean for each knockout guide is compared with the non-targeting control (sgNT). Models are never pooled into a larger apparent sample size.</p>
+      <p>The two-guide check uses the <em>smaller</em> reduction. A sensitivity check then removes one observation at a time from either guide or the control. A candidate stays on the shortlist only if it meets your chosen reduction threshold in every scenario. The threshold is a planning choice, not a significance test.</p>
+    </section>
+    <hr id="a1">
+    <section aria-labelledby="analysis-one-heading">
+      <h2 id="analysis-one-heading">Analysis 1 — Look inside a model</h2>
+      <div class="experiment">
+        <div class="exp-label">Measurement</div>
+        <div class="exp-title">Reported colony number after sterol-enzyme knockout</div>
+        <p>HMGCR acts upstream in the mevalonate pathway, supplying sterol and non-sterol products; FDFT1 and SQLE lie on the sterol branch. Compare their two guides with sgNT. Points are the source observations; horizontal marks are means.</p>
+      </div>
+      <div class="panel">
+        <div class="searchbar">
+          <label for="model">Cell model</label><select id="model"></select>
+          <label for="gene">Target</label><select id="gene"><option>HMGCR</option><option>FDFT1</option><option selected>SQLE</option></select>
+        </div>
+        <div class="chips" id="suggestions"><span>Compare:</span></div>
+        <svg id="hero-viz" class="viz" viewBox="0 0 600 310" role="img" aria-label="Three conditions with individual colony measurements"></svg>
+        <div class="readout" id="readout" aria-live="polite">Loading source measurements…</div>
+        <figcaption>Source: Rademaker et al., Nature 2025, Fig. 3c,d. Three biological replicates per condition within each model. Fractional source values are preserved; these are reported processed measurements, not raw image-level integer counts.</figcaption>
+        <details><summary>Inspect the nine source observations</summary><div class="table-scroll"><table id="raw-table"><thead><tr><th>Condition</th><th>Values</th><th>Mean</th></tr></thead><tbody></tbody></table></div></details>
+      </div>
+      <div class="metric-row">
+        <div class="metric"><span class="metric-val" id="metric-one">—</span><span class="metric-desc">smaller guide reduction</span></div>
+        <div class="metric"><span class="metric-val" id="metric-two">—</span><span class="metric-desc">worst sensitivity reduction</span></div>
+        <div class="metric"><span class="metric-val" id="metric-three">—</span><span class="metric-desc">gap between guide effects</span></div>
+      </div>
+      <p class="methods-note">A disagreement between guides calls for review of knockout efficiency and possible off-target effects, not an automatic biological conclusion. The source does not establish paired replicate identities across conditions; all comparisons here use unpaired group means.</p>
+    </section>
+    <hr id="a2">
+    <section aria-labelledby="analysis-two-heading">
+      <h2 id="analysis-two-heading">Analysis 2 — Choose a follow-up, not just a large effect</h2>
+      <div class="experiment"><div class="exp-label">Decision</div><div class="exp-title">Keep concordance and sensitivity in the selection</div><p>Change the minimum reduction and the shortlist changes. “Sensitivity review” means the full-data result passes, but omitting one observation can move it below the threshold. “Below threshold” does not mean no biological effect.</p></div>
+      <div class="panel">
+        <div class="controls">
+          <label for="threshold">Minimum reduction in both guides: <output id="threshold-value" for="threshold">30%</output></label>
+          <input id="threshold" type="range" min="0" max="80" step="5" value="30">
+          <label for="group">Model group</label><select id="group"><option value="all">All six models</option><option value="C2-Lung">C2 · lung-avid models</option><option value="C1-Liver">C1 · liver-avid models</option></select>
+        </div>
+        <p id="shortlist-summary" class="small" aria-live="polite"></p>
+        <div class="table-scroll"><table id="comparison"><thead><tr><th>Model / target</th><th>Smaller guide<br>reduction</th><th>Worst<br>sensitivity</th><th>Review status</th></tr></thead><tbody></tbody></table></div>
+        <p class="small">Click a model / target to inspect its measurements above. All 18 model–target comparisons remain available; no observations are removed from the exported source data. sgNT observations are shared across targets within each model, not additional independent controls.</p>
+        <button id="export" type="button" class="quiet-button">Download current review CSV</button>
+        <p id="export-status" class="small" aria-live="polite"></p>
+      </div>
+      <h2>A concrete next experiment</h2>
+      <div id="next-experiment" class="readout" aria-live="polite"></div>
+      <p>Before committing to a mechanism experiment, confirm the guide edits and target-protein depletion, repeat the colony assay with new independent cultures, and retain sgNT plus both guides. A rescue or complementary perturbation could then help separate on-target dependence from guide-specific effects. These are proposed checks, not experiments performed here.</p>
+    </section>
+    <hr id="relevance">
+    <section aria-labelledby="relevance-heading">
+      <h2 id="relevance-heading">Why this matters for the lab</h2>
+      <p><strong>What this lets the lab do:</strong> choose a follow-up with its control and uncertainty visible.</p>
+      <p>Move from a pooled figure to an explicit model-and-guide review list. It makes the choice of an experimental starting point inspectable: which model, which target, which control, how much reduction, and which single observation most affects that judgment. This is a plausible follow-up decision, not a claim about an internal bottleneck in the lab.</p>
+      <h2>What I would bring</h2>
+      <p><strong>Where Cathy adds value:</strong> connecting computational questions to organized experimental review.</p>
+      <p>My PDAC project involved computational analysis of tumor-cell states and candidate dependencies. My separate practical work includes tumor-model experiments, tissue processing and immunostaining, together with assay documentation and analytical quality control. I would bring that combination to organizing experimental comparisons, checking readouts and turning results into focused next questions. This demo does not establish hands-on experience with CRISPR cloning, primary PDAC cultures or sterol assays.</p>
+      <h2>Methods note</h2>
+      <p class="methods-note">Reduction = 100 × (1 − mean guide / mean sgNT). The concordant effect is the minimum of the two guide reductions. Sensitivity removes each of nine relevant observations once, recalculates the group means, and retains the smallest concordant effect across these scenarios and the full dataset. It is not a confidence interval, a formal outlier rule or a statistical test. No sample is permanently excluded. With only three biological replicates per condition, sensitivity checks cannot establish reproducibility.</p>
+      <p class="methods-note">The published model groups are C2-Lung (CAPAN-2, HPAC, HPAF-II) and C1-Liver (MiaPaCa-2, KP4, Panc-1). They describe the study’s model classification, not patient metastatic risk. Colony growth alone does not measure cholesterol flux, organ colonization or clinical response. Source processing and normalization are not reconstructed from raw colony images.</p>
+      <p class="methods-note">Source: <a href="https://www.nature.com/articles/s41586-025-09017-8">Rademaker et al. (2025)</a>, <a href="https://www.nature.com/articles/s41586-025-09017-8/figures/3">Fig. 3c,d and legend</a>, <a href="https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-09017-8/MediaObjects/41586_2025_9017_MOESM8_ESM.xlsx">source workbook</a>. Published measurements are attributed to their authors; the thresholds, sensitivity analysis and review interface are this project’s additions.</p>
+      <p class="methods-note">Reproduce or extend: <a href="https://github.com/liuzhitong330/perera-lab-demo">code &amp; instructions</a> · <a href="data/colony_measurements.csv" download>all 126 source observations</a> · <a href="data/source_manifest.json">source locations &amp; checksums</a>. A new dataset can use the same model / group / condition / replicate / value schema, but must document independent replicate identities, units and control handling. The current browser tool uses only this published dataset. Code was developed with AI assistance; interpretation and proposed experiments require scientific review.</p>
+    </section>
+    <footer>Cathy Liu · <a href="mailto:cathyliu014@gmail.com">cathyliu014@gmail.com</a> · <a href="tel:+14152163799">415-216-3799</a><br>Independent exploratory project. Not affiliated with or endorsed by the Perera Lab.</footer>
+  </main>
+  <script src="data.js?v=1"></script><script src="analysis.js?v=1"></script><script src="app.js?v=1"></script>
+</body>
+</html>
